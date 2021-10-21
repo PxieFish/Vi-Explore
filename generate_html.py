@@ -11,7 +11,7 @@ from pathlib import Path
 def main():
   user_directory = os.getcwd()
   home_directory = os.path.expanduser('~')
-  stylesheet = "/home/melody/style.css"
+  stylesheet = user_directory + "/Vi-Explore/style.css"
   #multiqc = home_directory + "/.local/bin/multiqc"
   #fastqc = "/usr/local/FastQC-0.11.9/fastqc"
   #uniprot_database = home_directory + "/db/viral_proteins/uniref90.fasta.gz"
